@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 500px;
+    width: 900px;
+    border-radius: 25px;
+}
+
+.signuptexto {
+    flex: bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-shadow: 4px 4px 10px black;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    
+}
+
+.signuptexto2 {
+    flex: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-shadow: 4px 4px 10px black;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    width: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://papers.co/wallpaper/papers.co-sa06-bleen-green-blur-35-3840x2160-4k-wallpaper.jpg);
+    box-shadow: 0px 0px 10px black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+
+.right {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px black;
+    
+    
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 0px 0px black;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #5b5b5b45;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+.terms {
+   display: flex;
+   align-items: baseline;
+   flex-direction: row;
+}
+
+.terms label {
+    flex: 1;
+    margin-right: 8px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+
+.terms input {
+    flex: 0;
+    margin-right: 8px;
+
+}
+
+.fa-circle-check {
+    margin-top: 8px;
+    font-size: 50px;
+    text-shadow: 0px 0px 8px black;
+}
+
+.buttons {
+display:flex
+}
+
+.boton1 {
+    background: #24c185;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.boton1:hover {
+  background-color: #2fac7c;
+  font-size: 17px;
+}
+
+.boton2 {
+    background: #ffffff;
+    border: none;
+    color: #24a88e;
+    font-size: 15px;
+    margin-top: 17px;
+    
+}
+
+.boton2:hover {
+    color: #0b765f;
+    font-size: 17px;
+    
+}
+
+.boton3 {
+    background: #ffffff;
+    border: none;
+    color: #24a88e;
+    font-size: 14px;
+    margin-right: 500px;
+    width: 500px;
+    white-space: nowrap;
+    
+}
+
+.boton3:hover {
+    color: #0b765f;
+    font-size: 15px;
+    
+}
+
+.textoboton {
+    margin-top: 15px;
+}
