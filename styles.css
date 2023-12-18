@@ -139,7 +139,9 @@ display:flex
     border: none;
     color: #24a88e;
     font-size: 15px;
-    margin-top: 17px;
+    margin-top: 32px;
+    margin-left: 5px;
+    text-decoration: none;
     
 }
 
@@ -154,9 +156,10 @@ display:flex
     border: none;
     color: #24a88e;
     font-size: 14px;
-    margin-right: 500px;
+    margin-left: 5px;
     width: 500px;
     white-space: nowrap;
+    text-decoration: none;
     
 }
 
